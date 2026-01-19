@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The changes documented here do not include those from the original repository.
 
+### [2.5.5]
+
+### Fixes
+
+- (android) Remove unnecessary dependencies to `oscore` and `oscordova` (https://outsystemsrd.atlassian.net/browse/RMET-4900)
+
 ### [2.5.4]
 
 ### Fixes

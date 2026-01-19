@@ -1,6 +1,7 @@
 package com.outsystems.firebase.cloudmessaging
 
 import android.Manifest
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -11,22 +12,24 @@ import com.outsystems.plugins.firebasemessaging.controller.*
 import com.outsystems.plugins.firebasemessaging.model.FirebaseMessagingError
 import com.outsystems.plugins.firebasemessaging.model.database.DatabaseManager
 import com.outsystems.plugins.firebasemessaging.model.database.DatabaseManagerInterface
-import com.outsystems.plugins.oscordova.CordovaImplementation
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.launch
 import org.apache.cordova.CallbackContext
 import org.apache.cordova.CordovaInterface
+import org.apache.cordova.CordovaPlugin
 import org.apache.cordova.CordovaWebView
+import org.apache.cordova.PermissionHelper
 import org.apache.cordova.PluginResult
 import org.apache.cordova.PluginResult.Status
 import org.json.JSONArray
 import org.json.JSONObject
+import androidx.core.content.edit
 
-class OSFirebaseCloudMessaging : CordovaImplementation() {
+class OSFirebaseCloudMessaging : CordovaPlugin() {
 
-    override var callbackContext: CallbackContext? = null
+    var callbackContext: CallbackContext? = null
     private lateinit var notificationManager : FirebaseNotificationManagerInterface
     private lateinit var messagingManager : FirebaseMessagingManagerInterface
     private lateinit var controller : FirebaseMessagingController
@@ -50,14 +53,15 @@ class OSFirebaseCloudMessaging : CordovaImplementation() {
 
     override fun initialize(cordova: CordovaInterface, webView: CordovaWebView) {
         super.initialize(cordova, webView)
-        databaseManager = DatabaseManager.getInstance(getActivity())
-        notificationManager = FirebaseNotificationManager(getActivity(), databaseManager)
+        this.webView = webView
+        databaseManager = DatabaseManager.getInstance(cordova.activity)
+        notificationManager = FirebaseNotificationManager(cordova.activity, databaseManager)
         messagingManager = FirebaseMessagingManager()
         controller = FirebaseMessagingController(controllerDelegate, messagingManager, notificationManager)
 
         setupChannelNameAndDescription()
 
-        val intent = getActivity().intent
+        val intent = cordova.activity.intent
         handleIntent(intent)
     }
 
@@ -96,7 +100,7 @@ class OSFirebaseCloudMessaging : CordovaImplementation() {
 
     private val controllerDelegate = object: FirebaseMessagingInterface {
         override fun callback(result: String) {
-            sendPluginResult(result)
+            sendPluginResult(result, null)
         }
         override fun callbackNotifyApp(event: String, result: String) {
             val js = "cordova.plugins.OSFirebaseCloudMessaging.fireEvent(" +
@@ -109,7 +113,7 @@ class OSFirebaseCloudMessaging : CordovaImplementation() {
             }
         }
         override fun callbackSuccess() {
-            sendPluginResult(true)
+            sendPluginResult(true, null)
         }
         override fun callbackBadgeNumber(number: Int) {
             //Does nothing on android
@@ -255,27 +259,26 @@ class OSFirebaseCloudMessaging : CordovaImplementation() {
         }
     }
 
-    override fun areGooglePlayServicesAvailable(): Boolean {
-        // Not used in this project.
-        return false
-    }
-
     private suspend fun registerDevice(callbackContext: CallbackContext) {
         flow = MutableSharedFlow(replay = 1)
 
         // for build versions from Tiramisu, if it doesn't have permission, request it
         // for older build versions, the permission is given by default
-        val hasPermission = Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU ||
-                checkPermission(Manifest.permission.POST_NOTIFICATIONS)
+        val hasPermission = Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU || 
+                PermissionHelper.hasPermission(this, Manifest.permission.POST_NOTIFICATIONS)
         if (hasPermission) {
             flow?.emit(OSFCMPermissionEvents.Granted)
         } else {
-            requestPermission(NOTIFICATION_PERMISSION_REQUEST_CODE, Manifest.permission.POST_NOTIFICATIONS)
+            PermissionHelper.requestPermission(
+                this,
+                NOTIFICATION_PERMISSION_REQUEST_CODE,
+                Manifest.permission.POST_NOTIFICATIONS
+            )
         }
 
         flow?.collect {
             if (it == OSFCMPermissionEvents.Granted) {
-                if (controller.registerDevice(this.getPackageAppName())) {
+                if (controller.registerDevice(cordova.context.packageName)) {
                     sendSuccess(callbackContext)
                 } else {
                     sendError(callbackContext, FirebaseMessagingError.REGISTRATION_ERROR)
@@ -287,7 +290,7 @@ class OSFirebaseCloudMessaging : CordovaImplementation() {
     }
 
     private suspend fun unregisterDevice(callbackContext: CallbackContext) {
-        if (controller.unregisterDevice(this.getPackageAppName())) {
+        if (controller.unregisterDevice(cordova.context.packageName)) {
             sendSuccess(callbackContext)
         } else {
             sendError(callbackContext, FirebaseMessagingError.UNREGISTRATION_ERROR)
@@ -341,23 +344,23 @@ class OSFirebaseCloudMessaging : CordovaImplementation() {
     }
 
     private fun setupChannelNameAndDescription(){
-        val channelName = getActivity().getString(getStringResourceId("notification_channel_name"))
-        val channelDescription = getActivity().getString(getStringResourceId("notification_channel_description"))
+        val channelName = cordova.activity.getString(getStringResourceId("notification_channel_name"))
+        val channelDescription = cordova.activity.getString(getStringResourceId("notification_channel_description"))
 
-        if(!channelName.isNullOrEmpty()){
-            val editorName = getActivity().getSharedPreferences(CHANNEL_NAME_KEY, Context.MODE_PRIVATE).edit()
-            editorName.putString(CHANNEL_NAME_KEY, channelName)
-            editorName.apply()
+        if(channelName.isNotEmpty()){
+            cordova.activity.getSharedPreferences(CHANNEL_NAME_KEY, Context.MODE_PRIVATE).edit {
+                putString(CHANNEL_NAME_KEY, channelName)
+            }
         }
-        if(!channelDescription.isNullOrEmpty()){
-            val editorDescription = getActivity().getSharedPreferences(CHANNEL_DESCRIPTION_KEY, Context.MODE_PRIVATE).edit()
-            editorDescription.putString(CHANNEL_DESCRIPTION_KEY, channelDescription)
-            editorDescription.apply()
+        if(channelDescription.isNotEmpty()){
+            cordova.activity.getSharedPreferences(CHANNEL_DESCRIPTION_KEY, Context.MODE_PRIVATE).edit {
+                putString(CHANNEL_DESCRIPTION_KEY, channelDescription)
+            }
         }
     }
 
     private fun getStringResourceId(typeAndName: String): Int {
-        return getActivity().resources.getIdentifier(typeAndName, "string", getActivity().packageName)
+        return cordova.activity.resources.getIdentifier(typeAndName, "string", cordova.activity.packageName)
     }
 
     private fun formatErrorCode(code: Int): String {
@@ -378,5 +381,29 @@ class OSFirebaseCloudMessaging : CordovaImplementation() {
             }
         )
         callbackContext.sendPluginResult(pluginResult)
+    }
+
+    private fun <T> sendPluginResult(resultVariable: T, error: Pair<String, String>?) {
+        var pluginResult: PluginResult?
+        resultVariable?.let {
+            pluginResult = PluginResult(Status.OK, resultVariable.toString())
+            this.callbackContext?.sendPluginResult(pluginResult)
+            return
+        }
+        val jsonResult = JSONObject()
+        jsonResult.put("code", error?.first)
+        jsonResult.put("message", error?.second ?: "No Results")
+        pluginResult = PluginResult(Status.ERROR, jsonResult)
+        this.callbackContext?.sendPluginResult(pluginResult)
+    }
+
+    private fun triggerEvent(js: String) {
+        if (this.webView == null) {
+            return
+        }
+        val viewActivity = this.webView.getContext() as Activity
+        viewActivity.runOnUiThread {
+            this.webView.loadUrl("javascript:$js")
+        }
     }
 }
