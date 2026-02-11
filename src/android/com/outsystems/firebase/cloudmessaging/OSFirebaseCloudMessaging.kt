@@ -260,24 +260,26 @@ class OSFirebaseCloudMessaging : CordovaPlugin() {
     }
 
     private suspend fun registerDevice(callbackContext: CallbackContext) {
-        flow = MutableSharedFlow(replay = 1)
+        try {
+            flow = MutableSharedFlow(replay = 1)
 
-        // for build versions from Tiramisu, if it doesn't have permission, request it
-        // for older build versions, the permission is given by default
-        val hasPermission = Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU || 
-                PermissionHelper.hasPermission(this, Manifest.permission.POST_NOTIFICATIONS)
-        if (hasPermission) {
-            flow?.emit(OSFCMPermissionEvents.Granted)
-        } else {
-            PermissionHelper.requestPermission(
-                this,
-                NOTIFICATION_PERMISSION_REQUEST_CODE,
-                Manifest.permission.POST_NOTIFICATIONS
-            )
-        }
+            // for build versions from Tiramisu, if it doesn't have permission, request it
+            // for older build versions, the permission is given by default
+            val hasPermission = Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU || 
+                    PermissionHelper.hasPermission(this, Manifest.permission.POST_NOTIFICATIONS)
+            if (hasPermission) {
+                flow?.emit(OSFCMPermissionEvents.Granted)
+            } else {
+                PermissionHelper.requestPermission(
+                    this,
+                    NOTIFICATION_PERMISSION_REQUEST_CODE,
+                    Manifest.permission.POST_NOTIFICATIONS
+                )
+            }
 
-        flow?.collect {
-            if (it == OSFCMPermissionEvents.Granted) {
+            val permissionResult = flow?.first()
+
+            if (permissionResult == OSFCMPermissionEvents.Granted) {
                 if (controller.registerDevice(cordova.context.packageName)) {
                     sendSuccess(callbackContext)
                 } else {
@@ -286,6 +288,8 @@ class OSFirebaseCloudMessaging : CordovaPlugin() {
             } else {
                 sendError(callbackContext,  FirebaseMessagingError.NOTIFICATIONS_PERMISSIONS_DENIED_ERROR)
             }
+        } catch (e: Exception) {
+            sendError(callbackContext, FirebaseMessagingError.REGISTRATION_ERROR)
         }
     }
 
