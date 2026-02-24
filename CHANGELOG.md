@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The changes documented here do not include those from the original repository.
 
+### [2.5.6]
+
+### Fixes
+
+- (android) Handle errors in `RegisterDevice` instead of hanging indefinitely (https://outsystemsrd.atlassian.net/browse/RMET-4953)
+
 ### [2.5.5]
 
 ### Fixes

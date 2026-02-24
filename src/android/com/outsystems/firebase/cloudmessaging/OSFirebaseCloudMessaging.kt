@@ -15,6 +15,7 @@ import com.outsystems.plugins.firebasemessaging.model.database.DatabaseManagerIn
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.flow.MutableSharedFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import org.apache.cordova.CallbackContext
 import org.apache.cordova.CordovaInterface
@@ -260,24 +261,33 @@ class OSFirebaseCloudMessaging : CordovaPlugin() {
     }
 
     private suspend fun registerDevice(callbackContext: CallbackContext) {
-        flow = MutableSharedFlow(replay = 1)
+        try {
+            // for build versions from Tiramisu, if it doesn't have permission, request it
+            // for older build versions, the permission is given by default
+            val hasPermission = Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU || 
+                    PermissionHelper.hasPermission(this, Manifest.permission.POST_NOTIFICATIONS)
+            
+            val permissionResult = if (hasPermission) {
+                OSFCMPermissionEvents.Granted
+            } else {
+                // To prevent hanging if registerDevice is called multiple times in quick succession,
+                // we check if a permission request is already in progress.
+                if (flow != null) {
+                    flow?.first()
+                } else {
+                    flow = MutableSharedFlow(replay = 1)
+                    PermissionHelper.requestPermission(
+                        this,
+                        NOTIFICATION_PERMISSION_REQUEST_CODE,
+                        Manifest.permission.POST_NOTIFICATIONS
+                    )
+                    val result = flow?.first()
+                    flow = null
+                    result
+                }
+            }
 
-        // for build versions from Tiramisu, if it doesn't have permission, request it
-        // for older build versions, the permission is given by default
-        val hasPermission = Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU || 
-                PermissionHelper.hasPermission(this, Manifest.permission.POST_NOTIFICATIONS)
-        if (hasPermission) {
-            flow?.emit(OSFCMPermissionEvents.Granted)
-        } else {
-            PermissionHelper.requestPermission(
-                this,
-                NOTIFICATION_PERMISSION_REQUEST_CODE,
-                Manifest.permission.POST_NOTIFICATIONS
-            )
-        }
-
-        flow?.collect {
-            if (it == OSFCMPermissionEvents.Granted) {
+            if (permissionResult == OSFCMPermissionEvents.Granted) {
                 if (controller.registerDevice(cordova.context.packageName)) {
                     sendSuccess(callbackContext)
                 } else {
@@ -286,6 +296,8 @@ class OSFirebaseCloudMessaging : CordovaPlugin() {
             } else {
                 sendError(callbackContext,  FirebaseMessagingError.NOTIFICATIONS_PERMISSIONS_DENIED_ERROR)
             }
+        } catch (e: Exception) {
+            sendError(callbackContext, FirebaseMessagingError.REGISTRATION_ERROR)
         }
     }
 
