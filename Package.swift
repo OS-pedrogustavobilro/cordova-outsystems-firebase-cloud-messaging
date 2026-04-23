@@ -1,0 +1,40 @@
+// swift-tools-version:5.9
+import PackageDescription
+
+let package = Package(
+    name: "com.outsystems.firebase.cloudmessaging",
+    platforms: [.iOS(.v14)],
+    products: [
+        .library(
+            name: "com.outsystems.firebase.cloudmessaging",
+            targets: ["com.outsystems.firebase.cloudmessaging"])
+    ],
+    dependencies: [
+        .package(url: "https://github.com/apache/cordova-ios.git", branch: "master"),
+        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", exact: "CocoaPods-10.29.0")
+    ],
+    targets: [
+        .binaryTarget(
+            name: "OSFirebaseMessagingLib",
+            path: "src/ios/frameworks/OSFirebaseMessagingLib.xcframework"
+        ),
+        .binaryTarget(
+            name: "OSLocalNotificationsLib",
+            path: "src/ios/frameworks/OSLocalNotificationsLib.xcframework"
+        ),
+        .target(
+            name: "com.outsystems.firebase.cloudmessaging",
+            dependencies: [
+                .product(name: "Cordova", package: "cordova-ios"),
+                .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
+                .target(name: "OSFirebaseMessagingLib"),
+                .target(name: "OSLocalNotificationsLib")
+            ],
+            path: "src/ios",
+            exclude: [
+                "frameworks/OSFirebaseMessagingLib.xcframework",
+                "frameworks/OSLocalNotificationsLib.xcframework"
+            ],
+            publicHeadersPath: ".")
+    ]
+)

@@ -11,7 +11,7 @@
   <hook type="after_prepare" src="hooks/unzipSound.js" />
   <hook type="after_prepare" src="hooks/cleanUp.js" />
 
-  <platform name="ios">
+  <platform name="ios" package="swift">
 
     <config-file parent="/*" target="config.xml">
       <feature name="OSFirebaseCloudMessaging">
@@ -51,7 +51,7 @@
             <source url="https://cdn.cocoapods.org/"/>
         </config>
         <pods use-frameworks="true">
-            <pod name="FirebaseMessaging" spec="10.29.0" />
+            <pod name="FirebaseMessaging" spec="10.29.0"  nospm="true" />
         </pods>
     </podspec>
 
