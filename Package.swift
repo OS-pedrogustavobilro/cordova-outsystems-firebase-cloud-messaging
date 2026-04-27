@@ -11,7 +11,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apache/cordova-ios.git", branch: "master"),
-        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", exact: "CocoaPods-10.29.0")
+        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", exact: "10.29.0")
     ],
     targets: [
         .binaryTarget(
@@ -33,7 +33,9 @@ let package = Package(
             path: "src/ios",
             exclude: [
                 "frameworks/OSFirebaseMessagingLib.xcframework",
-                "frameworks/OSLocalNotificationsLib.xcframework"
+                "frameworks/OSLocalNotificationsLib.xcframework",
+                "AppDelegate+OSFirebaseCloudMessaging.h",
+                "AppDelegate+OSFirebaseCloudMessaging.m"
             ],
             publicHeadersPath: ".")
     ]
