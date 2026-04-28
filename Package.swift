@@ -22,13 +22,29 @@ let package = Package(
             name: "OSLocalNotificationsLib",
             path: "src/ios/frameworks/OSLocalNotificationsLib.xcframework"
         ),
+        .target(name: "OSCloudMessagingObjectiveC",
+                dependencies: [
+                    .product(name: "Cordova", package: "cordova-ios"),
+                    .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
+                    .target(name: "OSFirebaseMessagingLib"),
+                    .target(name: "OSLocalNotificationsLib")
+                ],
+                path: "src/ios",
+                exclude: [
+                    "frameworks/OSFirebaseMessagingLib.xcframework",
+                    "frameworks/OSLocalNotificationsLib.xcframework",
+                    "OSFCMEventExtensions.swift",
+                    "OSFirebaseCloudMessaging.swift"
+                ],
+                publicHeadersPath: "."),
         .target(
             name: "com.outsystems.firebase.cloudmessaging",
             dependencies: [
                 .product(name: "Cordova", package: "cordova-ios"),
                 .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
                 .target(name: "OSFirebaseMessagingLib"),
-                .target(name: "OSLocalNotificationsLib")
+                .target(name: "OSLocalNotificationsLib"),
+                .target(name: "OSCloudMessagingObjectiveC")
             ],
             path: "src/ios",
             exclude: [
