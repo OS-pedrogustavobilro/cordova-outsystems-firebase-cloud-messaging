@@ -6542,322 +6542,322 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Model\/OSFCMNotification.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Model\/OSFCMNotification.swift",
       "kind": "StringLiteral",
       "offset": 3335,
       "length": 22,
       "value": "\"managedObjectContext\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 202,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 244,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 277,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 321,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 352,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 385,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 418,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 450,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 487,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 536,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 573,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 612,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 657,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 711,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 749,
       "length": 2,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 806,
       "length": 23,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseConfigurations.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseConfigurations.swift",
       "kind": "StringLiteral",
       "offset": 632,
       "length": 20,
       "value": "\"GoogleService-Info\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 8879,
       "length": 20,
       "value": "\"google.c.sender.id\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 8934,
       "length": 16,
       "value": "\"gcm.message_id\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 8983,
       "length": 14,
       "value": "\"google.c.fid\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9029,
       "length": 14,
       "value": "\"google.c.a.e\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9069,
       "length": 5,
       "value": "\"aps\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9102,
       "length": 7,
       "value": "\"alert\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9148,
       "length": 19,
       "value": "\"content-available\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9200,
       "length": 12,
       "value": "\"timeToLive\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9245,
       "length": 12,
       "value": "\"showDialog\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9285,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9319,
       "length": 6,
       "value": "\"body\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9356,
       "length": 10,
       "value": "\"deepLink\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9399,
       "length": 13,
       "value": "\"fcm_options\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9453,
       "length": 11,
       "value": "\"messageID\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9500,
       "length": 15,
       "value": "\"extraDataList\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9541,
       "length": 5,
       "value": "\"key\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9574,
       "length": 7,
       "value": "\"value\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9625,
       "length": 14,
       "value": "\"notification\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9681,
       "length": 12,
       "value": "\"screenName\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9729,
       "length": 15,
       "value": "\"parameterList\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 19531,
       "length": 43,
       "value": "\"deliveryMetricsExportToBigQueryEnabledKey\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingController.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingController.swift",
       "kind": "StringLiteral",
       "offset": 1577,
       "length": 20,
       "value": "\"-general-topic-ios\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
       "kind": "StringLiteral",
       "offset": 180,
       "length": 20,
       "value": "\"NotificationsModel\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
       "kind": "StringLiteral",
       "offset": 507,
       "length": 6,
       "value": "\"momd\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
       "kind": "StringLiteral",
       "offset": 545,
       "length": 24,
       "value": "\"Error initializing mom\""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
       "kind": "StringLiteral",
       "offset": 1027,
       "length": 46,
       "value": "\"Unresolved error \""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
       "kind": "StringLiteral",
       "offset": 1053,
       "length": 1,
       "value": "\", \""
     },
     {
-      "filePath": "\/Users\/pedrobilro\/Desktop\/client_projects\/outsystems\/source_codes\/cordova_plugins_ios\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
       "kind": "StringLiteral",
       "offset": 1072,
       "length": 2,
