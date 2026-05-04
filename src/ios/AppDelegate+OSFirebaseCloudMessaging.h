@@ -1,4 +1,4 @@
-#import "AppDelegate.h"
+#import <Cordova/AppDelegate.h>
 
 @interface AppDelegate (OSFirebaseCloudMessaging) <UIApplicationDelegate>
 @end
