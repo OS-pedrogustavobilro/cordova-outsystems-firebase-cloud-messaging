@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "com.outsystems.firebase.cloudmessaging",
-    platforms: [.iOS(.v14)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "com.outsystems.firebase.cloudmessaging",
