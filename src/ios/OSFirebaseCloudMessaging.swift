@@ -16,6 +16,7 @@ class OSFirebaseCloudMessaging: CDVPlugin {
     override func pluginInitialize() {
         self.plugin = FirebaseMessagingController()
         self.firebaseAppDelegate.eventDelegate = self
+        self.plugin?.configureApp()
     }
     
     @objc(ready:)
