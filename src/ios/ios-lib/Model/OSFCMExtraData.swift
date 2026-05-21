@@ -3,7 +3,11 @@ import CoreData
 /// Core Data Model that stores the dynamic properties associated with a specific Notification.
 @objc(OSFCMExtraData)
 public class OSFCMExtraData: NSManagedObject, Codable {
-    
+
+    @NSManaged public var key: String?
+    @NSManaged public var value: String?
+    @NSManaged public var notification: OSFCMNotification?
+
     /// Constructor method inherited from `NSManagedObject`.
     /// - Parameters:
     ///   - entity: A description of an entity in Core Data.

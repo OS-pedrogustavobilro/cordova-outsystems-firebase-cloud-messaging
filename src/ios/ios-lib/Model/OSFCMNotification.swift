@@ -3,7 +3,12 @@ import CoreData
 /// Core Data Model that stores the properties associated with a Notification.
 @objc(OSFCMNotification)
 public class OSFCMNotification: NSManagedObject, Codable {
-    
+
+    @NSManaged public var messageID: String
+    @NSManaged public var timeStamp: Double
+    @NSManaged public var timeToLive: String
+    @NSManaged public var extraDataList: NSSet?
+
     /// Constructor method inherited from `NSManagedObject`.
     /// - Parameters:
     ///   - entity: A description of an entity in Core Data.
