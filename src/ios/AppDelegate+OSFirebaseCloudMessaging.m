@@ -5,13 +5,6 @@
     #import <CordovaPluginsStatic/CordovaPluginsStatic-Swift.h>
 #elif __has_include(<com_outsystems_firebase_cloudmessaging/com_outsystems_firebase_cloudmessaging-Swift.h>)
     #import <com_outsystems_firebase_cloudmessaging/com_outsystems_firebase_cloudmessaging-Swift.h>
-#else
-@interface FirebaseMessagingApplicationDelegate : NSObject
-@property (class, nonatomic, readonly) FirebaseMessagingApplicationDelegate *shared;
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
-- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler;
-- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken;
-@end
 #endif
 
 @implementation AppDelegate (OSFirebaseCloudMessaging)
