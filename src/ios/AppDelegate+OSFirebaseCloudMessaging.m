@@ -1,5 +1,6 @@
 #import "AppDelegate+OSFirebaseCloudMessaging.h"
 #import <objc/runtime.h>
+#import <CordovaPluginsStatic/CordovaPluginsStatic-Swift.h>
 
 @implementation AppDelegate (OSFirebaseCloudMessaging)
 
