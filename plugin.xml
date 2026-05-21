@@ -64,7 +64,24 @@
     <source-file src="src/ios/ios-lib/Utils/OSFCMSubscriptionTopic.swift" />
     <source-file src="src/ios/ios-lib/Utils/OSFCMTokenType.swift" />
 
-    <framework src="src/ios/frameworks/OSLocalNotificationsLib.xcframework" embed="true" custom="true" />
+    <!-- ios-local-not-lib Sources -->
+    <source-file src="src/ios/ios-local-not-lib/OSLCNOFactory.swift" />
+    <source-file src="src/ios/ios-local-not-lib/OSLCNOWrapper.swift" />
+    <source-file src="src/ios/ios-local-not-lib/Models/OSLCNOAction.swift" />
+    <source-file src="src/ios/ios-local-not-lib/Models/OSLCNOActionEvent.swift" />
+    <source-file src="src/ios/ios-local-not-lib/Models/OSLCNOActionTextField.swift" />
+    <source-file src="src/ios/ios-local-not-lib/Models/OSLCNOActionType.swift" />
+    <source-file src="src/ios/ios-local-not-lib/Models/OSLCNOError.swift" />
+    <source-file src="src/ios/ios-local-not-lib/Models/OSLCNOInternalEvent.swift" />
+    <source-file src="src/ios/ios-local-not-lib/Models/OSLCNOParameter.swift" />
+    <source-file src="src/ios/ios-local-not-lib/Models/OSLCNORouteData.swift" />
+    <source-file src="src/ios/ios-local-not-lib/Protocols/OSLCNOActionDelegate.swift" />
+    <source-file src="src/ios/ios-local-not-lib/Protocols/OSLCNOCenterDelegate.swift" />
+    <source-file src="src/ios/ios-local-not-lib/Protocols/OSLCNOContentDelegate.swift" />
+    <source-file src="src/ios/ios-local-not-lib/UNExtensions/UNMutableNotificationContent+Adapter.swift" />
+    <source-file src="src/ios/ios-local-not-lib/UNExtensions/UNNotificationActionExtension.swift" />
+    <source-file src="src/ios/ios-local-not-lib/UNExtensions/UNUserNotificationCenter+Adapter.swift" />
+    <source-file src="src/ios/ios-local-not-lib/UNExtensions/Extensions/Encodable+UNUserNotificationCenter.swift" />
 
     <!-- Hooks -->
     <hook type="after_prepare" src="hooks/ios/iOSCopyPreferences.js" />

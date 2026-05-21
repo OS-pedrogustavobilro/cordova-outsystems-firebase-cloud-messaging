@@ -1,5 +1,4 @@
 import CoreData
-import OSLocalNotificationsLib
 import UserNotifications
 
 /// Manages and controls sending notifications.

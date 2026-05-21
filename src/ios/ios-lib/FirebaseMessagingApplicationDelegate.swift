@@ -1,6 +1,5 @@
 import FirebaseCore
 import FirebaseMessaging
-import OSLocalNotificationsLib
 import UIKit
 
 /// Application Delegate object responsible for managing the app's shared behaviours.

@@ -1,5 +1,3 @@
-import OSLocalNotificationsLib
-
 struct OSFCMPushNotificationModel: Decodable {
     let title: String
     let body: String

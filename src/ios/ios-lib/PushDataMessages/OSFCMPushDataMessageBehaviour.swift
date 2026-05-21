@@ -1,5 +1,4 @@
 import Foundation
-import OSLocalNotificationsLib
 
 final class OSFCMPushDataMessageBehaviour: OSFCMPushDataMessage {
     var localNotificationsWrapper: OSLCNOActionDelegate

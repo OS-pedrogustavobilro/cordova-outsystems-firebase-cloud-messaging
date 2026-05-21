@@ -1,5 +1,3 @@
-import OSLocalNotificationsLib
-
 extension OSLCNOActionDelegate {
     func triggerNotification(with title: String, _ body: String?, and badge: Int?) async throws {
         try await self.triggerNotification(with: title, body, badge, sound: nil, actions: nil, and: nil)

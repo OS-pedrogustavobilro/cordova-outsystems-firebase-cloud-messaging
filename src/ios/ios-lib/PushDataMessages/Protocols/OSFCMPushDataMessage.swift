@@ -1,5 +1,3 @@
-import OSLocalNotificationsLib
-
 protocol OSFCMPushDataMessage: AnyObject {
     typealias OSFCMDataMessageModel = String
     
