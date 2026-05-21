@@ -3,6 +3,8 @@
 
 #if __has_include(<CordovaPluginsStatic/CordovaPluginsStatic-Swift.h>)
     #import <CordovaPluginsStatic/CordovaPluginsStatic-Swift.h>
+#elif __has_include(<com_outsystems_firebase_cloudmessaging/com_outsystems_firebase_cloudmessaging-Swift.h>)
+    #import <com_outsystems_firebase_cloudmessaging/com_outsystems_firebase_cloudmessaging-Swift.h>
 #endif
 
 @implementation AppDelegate (OSFirebaseCloudMessaging)
