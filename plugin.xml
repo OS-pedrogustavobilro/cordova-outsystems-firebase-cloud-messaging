@@ -40,7 +40,30 @@
     <header-file src="src/ios/AppDelegate+OSFirebaseCloudMessaging.h" />
     <source-file src="src/ios/AppDelegate+OSFirebaseCloudMessaging.m" />
 
-    <framework src="src/ios/frameworks/OSFirebaseMessagingLib.xcframework" embed="true" custom="true" />
+    <!-- ios-lib Sources -->
+    <source-file src="src/ios/ios-lib/FirebaseMessagingApplicationDelegate.swift" />
+    <source-file src="src/ios/ios-lib/FirebaseMessagingController.swift" />
+    <source-file src="src/ios/ios-lib/CoreDataManager/CoreDataManager.swift" />
+    <resource-file src="src/ios/ios-lib/CoreDataManager/NotificationsModel.xcdatamodeld" />
+    <source-file src="src/ios/ios-lib/Extensions/Date+Extension.swift" />
+    <source-file src="src/ios/ios-lib/Extensions/Encodable+Extension.swift" />
+    <source-file src="src/ios/ios-lib/Extensions/OSLCNOActionDelegate+Accelerators.swift" />
+    <source-file src="src/ios/ios-lib/Managers/MessagingManager.swift" />
+    <source-file src="src/ios/ios-lib/Managers/NotificationManager.swift" />
+    <source-file src="src/ios/ios-lib/Model/OSFCMExtraData.swift" />
+    <source-file src="src/ios/ios-lib/Model/OSFCMNotification.swift" />
+    <source-file src="src/ios/ios-lib/Protocols/FirebaseMessagingEventProtocol.swift" />
+    <source-file src="src/ios/ios-lib/Protocols/MessagingProtocol.swift" />
+    <source-file src="src/ios/ios-lib/Protocols/UNUserNotificationCenterProtocol.swift" />
+    <source-file src="src/ios/ios-lib/PushDataMessages/OSFCMPushDataMessageBehaviour.swift" />
+    <source-file src="src/ios/ios-lib/PushDataMessages/Models/OSFCMPushNotificationModel.swift" />
+    <source-file src="src/ios/ios-lib/PushDataMessages/Protocols/OSFCMPushDataMessage.swift" />
+    <source-file src="src/ios/ios-lib/Utils/FirebaseConfigurations.swift" />
+    <source-file src="src/ios/ios-lib/Utils/FirebaseMessagingErrors.swift" />
+    <source-file src="src/ios/ios-lib/Utils/FirebaseNotificationEventType.swift" />
+    <source-file src="src/ios/ios-lib/Utils/OSFCMSubscriptionTopic.swift" />
+    <source-file src="src/ios/ios-lib/Utils/OSFCMTokenType.swift" />
+
     <framework src="src/ios/frameworks/OSLocalNotificationsLib.xcframework" embed="true" custom="true" />
 
     <!-- Hooks -->

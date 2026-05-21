@@ -15,10 +15,6 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "OSFirebaseMessagingLib",
-            path: "src/ios/frameworks/OSFirebaseMessagingLib.xcframework"
-        ),
-        .binaryTarget(
             name: "OSLocalNotificationsLib",
             path: "src/ios/frameworks/OSLocalNotificationsLib.xcframework"
         ),
@@ -26,13 +22,12 @@ let package = Package(
                 dependencies: [
                     .product(name: "Cordova", package: "cordova-ios"),
                     .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
-                    .target(name: "OSFirebaseMessagingLib"),
                     .target(name: "OSLocalNotificationsLib")
                 ],
                 path: "src/ios",
                 exclude: [
-                    "frameworks/OSFirebaseMessagingLib.xcframework",
                     "frameworks/OSLocalNotificationsLib.xcframework",
+                    "ios-lib",
                     "OSFCMEventExtensions.swift",
                     "OSFirebaseCloudMessaging.swift"
                 ],
@@ -42,16 +37,17 @@ let package = Package(
             dependencies: [
                 .product(name: "Cordova", package: "cordova-ios"),
                 .product(name: "FirebaseMessaging", package: "firebase-ios-sdk"),
-                .target(name: "OSFirebaseMessagingLib"),
                 .target(name: "OSLocalNotificationsLib"),
                 .target(name: "OSCloudMessagingObjectiveC")
             ],
             path: "src/ios",
             exclude: [
-                "frameworks/OSFirebaseMessagingLib.xcframework",
                 "frameworks/OSLocalNotificationsLib.xcframework",
                 "AppDelegate+OSFirebaseCloudMessaging.h",
                 "AppDelegate+OSFirebaseCloudMessaging.m"
+            ],
+            resources: [
+                .process("ios-lib/CoreDataManager/NotificationsModel.xcdatamodeld")
             ],
             publicHeadersPath: ".")
     ]

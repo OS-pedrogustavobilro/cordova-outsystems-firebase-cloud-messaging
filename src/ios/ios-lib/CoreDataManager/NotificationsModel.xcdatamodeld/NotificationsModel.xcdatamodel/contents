@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="NotificationsModel">
+    <entity name="OSExtraData" representedClassName="OSExtraData" syncable="YES" codeGenerationType="category">
+        <attribute name="key" optional="YES" attributeType="String"/>
+        <attribute name="value" optional="YES" attributeType="String"/>
+        <relationship name="notification" maxCount="1" deletionRule="Nullify" destinationEntity="OSNotification" inverseName="extraDataList" inverseEntity="OSNotification"/>
+    </entity>
+    <entity name="OSNotification" representedClassName="OSNotification" syncable="YES" codeGenerationType="category">
+        <attribute name="messageID" attributeType="String"/>
+        <attribute name="timeStamp" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="timeToLive" attributeType="String"/>
+        <relationship name="extraDataList" toMany="YES" deletionRule="Cascade" destinationEntity="OSExtraData" inverseName="notification" inverseEntity="OSExtraData"/>
+    </entity>
+    <elements>
+        <element name="OSExtraData" positionX="-63" positionY="9" width="128" height="74"/>
+        <element name="OSNotification" positionX="-63" positionY="-18" width="128" height="14"/>
+    </elements>
+</model>
