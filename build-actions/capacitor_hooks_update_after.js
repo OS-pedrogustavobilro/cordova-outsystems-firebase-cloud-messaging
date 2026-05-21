@@ -158,7 +158,7 @@ function updateAppDelegate(filePath) {
         content = content.replace('import Capacitor', 'import Capacitor\nimport FirebaseCore');
     }
     if (!content.includes('import CordovaPluginsStatic')) {
-        content = content.replace('import FirebaseCore', 'import FirebaseCore\nimport CordovaPluginsStatic');
+        content = content.replace('import FirebaseCore', 'import FirebaseCore\n#if canImport(CordovaPluginsStatic)\nimport CordovaPluginsStatic\n#endif');
     }
 
     // Inject FirebaseMessagingApplicationDelegate call into didFinishLaunchingWithOptions if not present
