@@ -6,59 +6,59 @@
 	<dict>
 		<key>Headers/OSFirebaseMessagingLib-Swift.h</key>
 		<data>
-		QGR6ClUHVQT5W1V54oDMpxKRiqo=
+		NearhaWc1LRehdlVlhBfPc65wQE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dH1xhr1JHSbCZtzueCT+nxLWIF4=
+		g/OYCkGAPrCtYvkuLlP9P3157uQ=
 		</data>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dOWNZfB+cQPldgivWJqD1MiDJdI=
+		QOXSW+rfyz4RuM6zXPd8EgFcDrk=
 		</data>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		NmpFCOqA7abJkq5KrovxV9W3qic=
+		9Ty6qq8KqUz9FkhSE+FwABvLeAs=
 		</data>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		JBO5WvZKTh77cgMuJbwQyBEkD60=
+		yOtU/anKXySdJG0axH0FXcMpNVY=
 		</data>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NmpFCOqA7abJkq5KrovxV9W3qic=
+		9Ty6qq8KqUz9FkhSE+FwABvLeAs=
 		</data>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BTNxEuc87s6Dpvw1Sm9jsHjy6O8=
+		UAAsfvgyPUqhH9kxo2DsOGzOyAY=
 		</data>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dOWNZfB+cQPldgivWJqD1MiDJdI=
+		QOXSW+rfyz4RuM6zXPd8EgFcDrk=
 		</data>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Qsb50tT7jEEOrYedXseJnX94/B8=
+		I7FGVmjHB1ib+B+Xx1PKKovVDDo=
 		</data>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jZogQeSWgInDtlOkTYQEo9yzeq8=
+		AK2mwusUU09LES9nP3EsDGknl5Y=
 		</data>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Qsb50tT7jEEOrYedXseJnX94/B8=
+		I7FGVmjHB1ib+B+Xx1PKKovVDDo=
 		</data>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		k6ooEJvYLTdnydvz2IEXCGYUvY4=
+		SoFA4EgWH6OCate3NW2nXnMp76A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		ixl7DAl7/dLrSdQPj6MXO63YRU4=
+		4sneDWPCjVI22auCN1crBkBwELo=
 		</data>
 		<key>NotificationsModel.momd/NotificationsModel 2.mom</key>
 		<data>
-		mC5PuHXAP47zncrVl3DkVCcOkWw=
+		FQbFQt683ArAHSPfv/o0KQQ2WfM=
 		</data>
 		<key>NotificationsModel.momd/NotificationsModel 2.omo</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>NotificationsModel.momd/NotificationsModel.mom</key>
 		<data>
-		3gdMEuvFX6zgw1C4Asdw+3QgmLc=
+		NBRwCcimKIUgZM9lgZ18CpYwH6A=
 		</data>
 		<key>NotificationsModel.momd/VersionInfo.plist</key>
 		<data>
@@ -79,91 +79,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2EiUNpScSR1qj/xa3VH12o/RdLpzYXh64vpnT2CMcVI=
+			qGU9PJWn5LkEiX8WGNTinVUfyhPUltSxLlKr88aC8uY=
 			</data>
 		</dict>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			38Bs/lvaVwRsZ6HQPG3SpAKAR83siAemvDpnm8c14lM=
+			GzDmeyUj+IyhmoOmmO+A2FT0KiOfdxpw4TTUdOFTJA4=
 			</data>
 		</dict>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RC5Sp+H76e4K8dPUgPtHmXfqEXE/oUKdLWuVt1OVU/c=
+			SDIPpoqtM+NOVIvQhMNfu2ZqBh+0aWrDEq+hnxPrlo0=
 			</data>
 		</dict>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZrQrFJ5BT2Q7+nTEOKm82PRB7Ux/5UDO0irJglJVZRI=
+			2QmS767pMg32N8g9srMHFR5UNbnSbC5uBtkyeihan+c=
 			</data>
 		</dict>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RC5Sp+H76e4K8dPUgPtHmXfqEXE/oUKdLWuVt1OVU/c=
+			SDIPpoqtM+NOVIvQhMNfu2ZqBh+0aWrDEq+hnxPrlo0=
 			</data>
 		</dict>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oQ17F+dUd/2QIBYLAr78WI+WUdFf/k1TD+WhtO3l7dU=
+			zmK64lS6dj1aFqYsyAsZzaFhmGWojGfNYa0brbN/64o=
 			</data>
 		</dict>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			38Bs/lvaVwRsZ6HQPG3SpAKAR83siAemvDpnm8c14lM=
+			GzDmeyUj+IyhmoOmmO+A2FT0KiOfdxpw4TTUdOFTJA4=
 			</data>
 		</dict>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SqkgkRBHIioly+UEELa0LMkyEIqfgf8ji0h0CUlI5fI=
+			JwXkb6NUmTbUeLMthAPEq/hINkh3ZAmmzc1vwbne9/s=
 			</data>
 		</dict>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x0LA2TFlX7S7RXF+noeBAsU0T1z7w7j9E0DovP1p40Q=
+			sjA7PiKM9kTkVC1FYnlpYNfpiDlQB9DjFOD23/x9KiI=
 			</data>
 		</dict>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SqkgkRBHIioly+UEELa0LMkyEIqfgf8ji0h0CUlI5fI=
+			JwXkb6NUmTbUeLMthAPEq/hINkh3ZAmmzc1vwbne9/s=
 			</data>
 		</dict>
 		<key>Modules/OSFirebaseMessagingLib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D85Upc6YJkIZ7h+NBV6mR0KX8mTp1GgsJ2XwvJ0FlDQ=
+			VZEecKrqeqYAZkjMCv4i63W82CmhOIY9l0iQJQhNNGo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ImckWM8ptiSqc2x5U05etZ6jgKyek/b4b0u+cevgQ2Y=
+			KY6OrwC8h3hvggJVniyabhfndkIFbhrurODKK6cY3d8=
 			</data>
 		</dict>
 		<key>NotificationsModel.momd/NotificationsModel 2.mom</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZQCbmOdYEifyFq9rfyh/FyK6RQ6/CUrGQB40VmWUqwk=
+			TQOifvcZLdi0N0WbpNKr1ZHSWGN5bXKmohyg95j0+Y8=
 			</data>
 		</dict>
 		<key>NotificationsModel.momd/NotificationsModel 2.omo</key>
@@ -177,7 +177,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LOLPkNu4Ep2Ct8FvFDBV9CRT83mZPO4KwexnoGyQ5Vk=
+			MdAc6CJZQj3HwU7BZ749IZhJNPYKi382zl04Q3wGbxw=
 			</data>
 		</dict>
 		<key>NotificationsModel.momd/VersionInfo.plist</key>

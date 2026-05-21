@@ -38,7 +38,6 @@
             "mangledName": "$s22OSFirebaseMessagingLib14OSFCMExtraDataC6encode2toys7Encoder_p_tKF",
             "moduleName": "OSFirebaseMessagingLib",
             "declAttributes": [
-              "Nonisolated",
               "AccessControl",
               "RawDocComment"
             ],
@@ -68,7 +67,6 @@
             "mangledName": "$s22OSFirebaseMessagingLib14OSFCMExtraDataC4fromACs7Decoder_p_tKcfc",
             "moduleName": "OSFirebaseMessagingLib",
             "declAttributes": [
-              "Nonisolated",
               "Convenience",
               "Required",
               "AccessControl",
@@ -135,7 +133,6 @@
             "moduleName": "OSFirebaseMessagingLib",
             "declAttributes": [
               "Dynamic",
-              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -239,7 +236,6 @@
             "moduleName": "OSFirebaseMessagingLib",
             "declAttributes": [
               "Dynamic",
-              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -343,7 +339,6 @@
             "moduleName": "OSFirebaseMessagingLib",
             "declAttributes": [
               "Dynamic",
-              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -428,7 +423,6 @@
         "moduleName": "OSFirebaseMessagingLib",
         "objc_name": "OSFCMExtraData",
         "declAttributes": [
-          "Nonisolated",
           "AccessControl",
           "ObjC",
           "RawDocComment"
@@ -441,6 +435,83 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
           {
             "kind": "Conformance",
             "name": "ObservableObject",
@@ -465,83 +536,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
             "name": "Identifiable",
             "printedName": "Identifiable",
             "children": [
@@ -561,20 +555,6 @@
             ],
             "usr": "s:s12IdentifiableP",
             "mangledName": "$ss12IdentifiableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -933,17 +913,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -988,7 +968,6 @@
             "mangledName": "$s22OSFirebaseMessagingLib17OSFCMNotificationC6encode2toys7Encoder_p_tKF",
             "moduleName": "OSFirebaseMessagingLib",
             "declAttributes": [
-              "Nonisolated",
               "AccessControl",
               "RawDocComment"
             ],
@@ -1018,7 +997,6 @@
             "mangledName": "$s22OSFirebaseMessagingLib17OSFCMNotificationC4fromACs7Decoder_p_tKcfc",
             "moduleName": "OSFirebaseMessagingLib",
             "declAttributes": [
-              "Nonisolated",
               "Convenience",
               "Required",
               "AccessControl",
@@ -1085,7 +1063,6 @@
             "moduleName": "OSFirebaseMessagingLib",
             "declAttributes": [
               "Dynamic",
-              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -1181,7 +1158,6 @@
             "moduleName": "OSFirebaseMessagingLib",
             "declAttributes": [
               "Dynamic",
-              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -1269,7 +1245,6 @@
             "moduleName": "OSFirebaseMessagingLib",
             "declAttributes": [
               "Dynamic",
-              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -1373,7 +1348,6 @@
             "moduleName": "OSFirebaseMessagingLib",
             "declAttributes": [
               "Dynamic",
-              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -1475,7 +1449,6 @@
             "objc_name": "addExtraDataListObject:",
             "declAttributes": [
               "Dynamic",
-              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -1507,7 +1480,6 @@
             "objc_name": "removeExtraDataListObject:",
             "declAttributes": [
               "Dynamic",
-              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -1539,7 +1511,6 @@
             "objc_name": "addExtraDataList:",
             "declAttributes": [
               "Dynamic",
-              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -1571,7 +1542,6 @@
             "objc_name": "removeExtraDataList:",
             "declAttributes": [
               "Dynamic",
-              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -1586,7 +1556,6 @@
         "moduleName": "OSFirebaseMessagingLib",
         "objc_name": "OSFCMNotification",
         "declAttributes": [
-          "Nonisolated",
           "AccessControl",
           "ObjC",
           "RawDocComment"
@@ -1599,6 +1568,83 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
           {
             "kind": "Conformance",
             "name": "ObservableObject",
@@ -1623,83 +1669,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
             "name": "Identifiable",
             "printedName": "Identifiable",
             "children": [
@@ -1719,20 +1688,6 @@
             ],
             "usr": "s:s12IdentifiableP",
             "mangledName": "$ss12IdentifiableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2533,24 +2488,24 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "CustomNSError",
-            "printedName": "CustomNSError",
-            "usr": "s:10Foundation13CustomNSErrorP",
-            "mangledName": "$s10Foundation13CustomNSErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LocalizedError",
-            "printedName": "LocalizedError",
-            "usr": "s:10Foundation14LocalizedErrorP",
-            "mangledName": "$s10Foundation14LocalizedErrorP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -2583,10 +2538,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "CustomNSError",
+            "printedName": "CustomNSError",
+            "usr": "s:10Foundation13CustomNSErrorP",
+            "mangledName": "$s10Foundation13CustomNSErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
           },
           {
             "kind": "Conformance",
@@ -2597,24 +2559,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -3757,52 +3705,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -3813,10 +3719,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -4339,17 +4287,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Escapable",
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -4644,13 +4592,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "MessagingProtocol",
-            "printedName": "MessagingProtocol",
-            "usr": "s:22OSFirebaseMessagingLib0B8ProtocolP",
-            "mangledName": "$s22OSFirebaseMessagingLib0B8ProtocolP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -4662,6 +4603,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MessagingProtocol",
+            "printedName": "MessagingProtocol",
+            "usr": "s:22OSFirebaseMessagingLib0B8ProtocolP",
+            "mangledName": "$s22OSFirebaseMessagingLib0B8ProtocolP"
           }
         ]
       },
@@ -5176,59 +5124,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "NotificationManagerProtocol",
-            "printedName": "NotificationManagerProtocol",
-            "usr": "s:22OSFirebaseMessagingLib27NotificationManagerProtocolP",
-            "mangledName": "$s22OSFirebaseMessagingLib27NotificationManagerProtocolP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -5239,10 +5138,59 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "NotificationManagerProtocol",
+            "printedName": "NotificationManagerProtocol",
+            "usr": "s:22OSFirebaseMessagingLib27NotificationManagerProtocolP",
+            "mangledName": "$s22OSFirebaseMessagingLib27NotificationManagerProtocolP"
           }
         ]
       },
@@ -5402,6 +5350,26 @@
               "AccessControl"
             ],
             "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "configureApp",
+            "printedName": "configureApp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22OSFirebaseMessagingLib08FirebaseB10ControllerC12configureAppyyF",
+            "mangledName": "$s22OSFirebaseMessagingLib08FirebaseB10ControllerC12configureAppyyF",
+            "moduleName": "OSFirebaseMessagingLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -5699,52 +5667,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -5755,10 +5681,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -6096,52 +6064,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -6152,10 +6078,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -6166,7 +6134,6 @@
         "declKind": "Import",
         "moduleName": "OSFirebaseMessagingLib",
         "declAttributes": [
-          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -6175,10 +6142,7 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "OSFirebaseMessagingLib",
-        "declAttributes": [
-          "AccessControl"
-        ]
+        "moduleName": "OSFirebaseMessagingLib"
       },
       {
         "kind": "Import",
@@ -6187,7 +6151,6 @@
         "declKind": "Import",
         "moduleName": "OSFirebaseMessagingLib",
         "declAttributes": [
-          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -6196,10 +6159,7 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "OSFirebaseMessagingLib",
-        "declAttributes": [
-          "AccessControl"
-        ]
+        "moduleName": "OSFirebaseMessagingLib"
       },
       {
         "kind": "Import",
@@ -6208,7 +6168,6 @@
         "declKind": "Import",
         "moduleName": "OSFirebaseMessagingLib",
         "declAttributes": [
-          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -6217,10 +6176,7 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "OSFirebaseMessagingLib",
-        "declAttributes": [
-          "AccessControl"
-        ]
+        "moduleName": "OSFirebaseMessagingLib"
       },
       {
         "kind": "TypeDecl",
@@ -6246,52 +6202,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -6302,10 +6216,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -6478,59 +6434,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UIApplicationProtocol",
-            "printedName": "UIApplicationProtocol",
-            "usr": "s:22OSFirebaseMessagingLib21UIApplicationProtocolP",
-            "mangledName": "$s22OSFirebaseMessagingLib21UIApplicationProtocolP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -6541,10 +6448,59 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIApplicationProtocol",
+            "printedName": "UIApplicationProtocol",
+            "usr": "s:22OSFirebaseMessagingLib21UIApplicationProtocolP",
+            "mangledName": "$s22OSFirebaseMessagingLib21UIApplicationProtocolP"
           }
         ]
       },
@@ -6606,322 +6562,322 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Model\/OSFCMNotification.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Model\/OSFCMNotification.swift",
       "kind": "StringLiteral",
       "offset": 3335,
       "length": 22,
       "value": "\"managedObjectContext\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 202,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 244,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 277,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 321,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 352,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 385,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 418,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 450,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 487,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 536,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 573,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 612,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 657,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 711,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 749,
       "length": 2,
       "value": "23"
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseMessagingErrors.swift",
       "kind": "IntegerLiteral",
       "offset": 806,
       "length": 23,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseConfigurations.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/Utils\/FirebaseConfigurations.swift",
       "kind": "StringLiteral",
       "offset": 632,
       "length": 20,
       "value": "\"GoogleService-Info\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 8879,
       "length": 20,
       "value": "\"google.c.sender.id\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 8934,
       "length": 16,
       "value": "\"gcm.message_id\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 8983,
       "length": 14,
       "value": "\"google.c.fid\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9029,
       "length": 14,
       "value": "\"google.c.a.e\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9069,
       "length": 5,
       "value": "\"aps\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9102,
       "length": 7,
       "value": "\"alert\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9148,
       "length": 19,
       "value": "\"content-available\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9200,
       "length": 12,
       "value": "\"timeToLive\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9245,
       "length": 12,
       "value": "\"showDialog\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9285,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9319,
       "length": 6,
       "value": "\"body\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9356,
       "length": 10,
       "value": "\"deepLink\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9399,
       "length": 13,
       "value": "\"fcm_options\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9453,
       "length": 11,
       "value": "\"messageID\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9500,
       "length": 15,
       "value": "\"extraDataList\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9541,
       "length": 5,
       "value": "\"key\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9574,
       "length": 7,
       "value": "\"value\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9625,
       "length": 14,
       "value": "\"notification\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9681,
       "length": 12,
       "value": "\"screenName\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 9729,
       "length": 15,
       "value": "\"parameterList\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingApplicationDelegate.swift",
       "kind": "StringLiteral",
       "offset": 19531,
       "length": 43,
       "value": "\"deliveryMetricsExportToBigQueryEnabledKey\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingController.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/FirebaseMessagingController.swift",
       "kind": "StringLiteral",
       "offset": 1577,
       "length": 20,
       "value": "\"-general-topic-ios\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
       "kind": "StringLiteral",
       "offset": 180,
       "length": 20,
       "value": "\"NotificationsModel\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
       "kind": "StringLiteral",
       "offset": 507,
       "length": 6,
       "value": "\"momd\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
       "kind": "StringLiteral",
       "offset": 545,
       "length": 24,
       "value": "\"Error initializing mom\""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
       "kind": "StringLiteral",
       "offset": 1027,
       "length": 46,
       "value": "\"Unresolved error \""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
       "kind": "StringLiteral",
       "offset": 1053,
       "length": 1,
       "value": "\", \""
     },
     {
-      "filePath": "\/Users\/mark.anderson\/Developer\/outsystems\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
+      "filePath": "\/Users\/alexandre.jacinto\/Documents\/Work\/Repositories\/Libraries\/iOS\/OSFirebaseMessagingLib-iOS\/OSFirebaseMessagingLib\/CoreDataManager\/CoreDataManager.swift",
       "kind": "StringLiteral",
       "offset": 1072,
       "length": 2,

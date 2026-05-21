@@ -1,3 +1,4 @@
 framework module OSFirebaseMessagingLib {
   header "OSFirebaseMessagingLib-Swift.h"
+  requires objc
 }
