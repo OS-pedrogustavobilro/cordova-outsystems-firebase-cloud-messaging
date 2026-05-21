@@ -157,9 +157,6 @@ function updateAppDelegate(filePath) {
     if (!content.includes('import FirebaseCore')) {
         content = content.replace('import Capacitor', 'import Capacitor\nimport FirebaseCore');
     }
-    if (!content.includes('import OSFirebaseMessagingLib')) {
-        content = content.replace('import FirebaseCore', 'import FirebaseCore\nimport OSFirebaseMessagingLib');
-    }
 
     // Inject FirebaseMessagingApplicationDelegate call into didFinishLaunchingWithOptions if not present
     content = content.replace(
