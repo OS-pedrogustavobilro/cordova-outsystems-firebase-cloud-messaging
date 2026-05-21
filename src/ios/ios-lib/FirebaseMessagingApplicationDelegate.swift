@@ -3,6 +3,7 @@ import FirebaseMessaging
 import UIKit
 
 /// Application Delegate object responsible for managing the app's shared behaviours.
+@objc(FirebaseMessagingApplicationDelegate)
 public class FirebaseMessagingApplicationDelegate: NSObject, UIApplicationDelegate {
     /// Object that manages all accesses to the Core Data layer.
     public lazy var coreDataManager = CoreDataManager()
