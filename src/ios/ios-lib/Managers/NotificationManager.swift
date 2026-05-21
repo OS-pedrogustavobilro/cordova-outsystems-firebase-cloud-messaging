@@ -74,7 +74,7 @@ public final class NotificationManager: NSObject {
     /// - Parameter notifications: Notifications to remove.
     /// - Returns: A boolean indicating the success of the operation or an error, in case of failure.
     public func deletePendingNotifications(_ notifications: [OSFCMNotification]) -> Result<Bool, Error> {
-        let fetchRequest: NSFetchRequest<OSFCMNotification> = OSFCMNotification.fetchRequest()
+        let fetchRequest = NSFetchRequest<OSFCMNotification>(entityName: "OSFCMNotification")
         do {
             let fetchRequestResults = try self.coreDataManager.fetch(fetchRequest)
             let filtered = fetchRequestResults.filter({ notifications.contains($0) })
@@ -130,7 +130,7 @@ extension NotificationManager: NotificationManagerProtocol {
     /// Fetches the store notifications on Core Data.
     /// - Returns: An array of notifications or an error, in case of failure.
     public func fetchNotifications() -> Result<[OSFCMNotification], Error> {
-        let fetchRequest: NSFetchRequest<OSFCMNotification> = OSFCMNotification.fetchRequest()
+        let fetchRequest = NSFetchRequest<OSFCMNotification>(entityName: "OSFCMNotification")
         do {
             let notifications = try self.coreDataManager.fetch(fetchRequest)
             return .success(notifications)            
