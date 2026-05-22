@@ -42,7 +42,7 @@
 
     <!-- OSFirebaseMessagingLib Sources -->
     <source-file src="src/ios/ios-lib/CoreDataManager/CoreDataManager.swift" />
-    <resource-file src="src/ios/ios-lib/CoreDataManager/NotificationsModel.xcdatamodeld" />
+    <resource-file src="src/ios/ios-lib/CoreDataManager/NotificationsModel.momd" />
     <source-file src="src/ios/ios-lib/Extensions/Date+Extension.swift" />
     <source-file src="src/ios/ios-lib/Extensions/Encodable+Extension.swift" />
     <source-file src="src/ios/ios-lib/Extensions/OSLCNOActionDelegate+Accelerators.swift" />
