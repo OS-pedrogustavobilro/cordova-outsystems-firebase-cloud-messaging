@@ -1,6 +1,12 @@
 #import "AppDelegate+OSFirebaseCloudMessaging.h"
 #import <objc/runtime.h>
-#import <OSFirebaseMessagingLib/OSFirebaseMessagingLib-Swift.h>
+
+@interface FirebaseMessagingApplicationDelegate : NSObject
++ (instancetype)shared;
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler;
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken;
+@end
 
 @implementation AppDelegate (OSFirebaseCloudMessaging)
 

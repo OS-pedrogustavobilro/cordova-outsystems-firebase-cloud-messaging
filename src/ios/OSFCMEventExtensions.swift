@@ -1,5 +1,3 @@
-import OSFirebaseMessagingLib
-
 extension OSFCMClickableType: CustomStringConvertible {
     public var description: String {
         return switch self {

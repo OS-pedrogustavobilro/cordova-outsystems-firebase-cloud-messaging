@@ -1,5 +1,4 @@
 import Foundation
-import OSFirebaseMessagingLib
 
 @objc(OSFirebaseCloudMessaging)
 class OSFirebaseCloudMessaging: CDVPlugin {
