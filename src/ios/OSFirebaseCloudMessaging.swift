@@ -1,3 +1,7 @@
+#if canImport(Cordova)
+import Cordova
+#endif
+
 import Foundation
 import OSFirebaseMessagingLib
 
@@ -10,6 +14,12 @@ class OSFirebaseCloudMessaging: CDVPlugin {
     private var eventQueue: [String]?
     
     override func pluginInitialize() {
+        #if SWIFT_PACKAGE
+        // In SPM builds the .momd resource lives in this module's bundle, not in Bundle.main.
+        // Set resourceBundle before FirebaseMessagingController is created so CoreData picks
+        // it up on first access (static let model is lazily initialised).
+        CoreDataManager.resourceBundle = Bundle.module
+        #endif
         self.plugin = FirebaseMessagingController()
         self.firebaseAppDelegate.eventDelegate = self
     }
