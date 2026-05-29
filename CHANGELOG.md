@@ -6,35 +6,41 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 The changes documented here do not include those from the original repository.
 
-### [2.6.0]
+## [2.6.0]
+
+### Features
 
 - (ios) Support for Swift Package Manager (https://outsystemsrd.atlassian.net/browse/RMET-5137)
 
-### [2.5.6]
+### Fixes
+
+- (android) Avoid overwriting other plugins' `ext.postBuildExtras` Gradle configuration (https://outsystemsrd.atlassian.net/browse/RMET-5211)
+
+## [2.5.6]
 
 ### Fixes
 
 - (android) Handle errors in `RegisterDevice` instead of hanging indefinitely (https://outsystemsrd.atlassian.net/browse/RMET-4953)
 
-### [2.5.5]
+## [2.5.5]
 
 ### Fixes
 
 - (android) Remove unnecessary dependencies to `oscore` and `oscordova` (https://outsystemsrd.atlassian.net/browse/RMET-4900)
 
-### [2.5.4]
+## [2.5.4]
 
 ### Fixes
 
 - (android) Fix capacitor builds by removing kapt dependency (https://outsystemsrd.atlassian.net/browse/RMET-4862)
 
-### [2.5.3]
+## [2.5.3]
 
 ### Fixes
 
 - (android) Fixes missing strings.xml on target project (https://outsystemsrd.atlassian.net/browse/RMET-4774)
 
-### [2.5.2]
+## [2.5.2]
 
 ### Fixes
 
